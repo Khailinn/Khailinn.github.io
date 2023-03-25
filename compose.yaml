@@ -2,7 +2,7 @@ services:
   jekyll:
     image: jekyll-site:latest
     volumes:
-     - ./src:/jekyll_files/src
+     - ./docs:/jekyll_files/docs
     ports:
      - "4000:4000"
      - "35729:35729"

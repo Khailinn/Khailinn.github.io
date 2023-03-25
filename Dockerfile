@@ -4,8 +4,8 @@ RUN gem install jekyll bundler minima jekyll-feed
 
 
 RUN mkdir /jekyll_files
-RUN mkdir /jekyll_files/src
-WORKDIR /jekyll_files/src
+RUN mkdir /jekyll_files/docs
+WORKDIR /jekyll_files/docs
 EXPOSE 4000
 
 
